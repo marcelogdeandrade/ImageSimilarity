@@ -8,6 +8,15 @@ O valor de similaridade entre imagens é encontrado a partir da comparação ent
 
 Portanto, a partir de uma imagem exemplo, o programa busca encontrar as imagens mais semelhantes ao exemplo no dataset, comparando o histograma do exemplo com os calculados previamante.
 
+## Requerimentos
+
+- scikit-learn
+- opencv-contrib-python
+- numpy
+- matplotlib
+
+Os pacotes podem ser instalados através do arquivo `requirements.txt`.
+
 ## Utilização
 
 As imagens do dataset de treino devem estar dentro da pasta `images`. Elas podem estar em sub diretórios, são considerados todos arquivos presentes na pasta recursivamente.
